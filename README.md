@@ -1,2 +1,4 @@
-# coursework
-An example of the programming I have done in classes
+# CourseWork
+I have sorted my coursework by programming language so it is easier for you to navigate.
+
+Please enjoy!
