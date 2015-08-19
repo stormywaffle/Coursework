@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<meta charset='utf-8'>
+<title>Calculator</title>
+<script type="text/javascript">
+var number1;
+var number2;
+var num1;
+var num2;
+var total;
+
+function calculator(){
+number1= prompt("Enter your first number");
+number2= prompt("Enter your second number");
+num1 = parseInt(number1);
+num2 = parseInt(number2);
+}
+
+function add(){
+ total = num1 + num2;
+document.writeln("Your total is " + total);
+}
+
+function subtract(){
+total = num1 - num2;
+document.writeln("Your total is " + total);
+}
+
+function multiply(){
+total = num1 * num2;
+document.writeln("Your total is " + total);
+}
+
+function divide(){
+total = num1 / num2;
+document.writeln("Your toal is " + total);
+}
+
+</script>
+</head>
+<body onload="calculator()">
+<span style="color:blue">This is your calculator, please press the appropriate buttons for your  numbers to do your calculations </span><br>
+<input type="button" value="add" onclick="add()" />
+<input type="button" value="subtract" onclick="subtract()" />
+<input type="button" value="multiply" onclick="multiply()" />
+<input type="button" value="divide" onclick="divide()" />
+</body>
+</html>
