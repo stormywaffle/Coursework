@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<!-- Mark's Homework 7 -->
+
+<HTML>
+<head>
+<title>My Form</title>
+<meta charset='utf-8'>
+<script type="text/javascript">
+function check(){
+    if (document.getElementById("name").value == "" || document.getElementById("siblings").value == "" || document.getElementById("car").value == "" || document.getElementById("month").value == "" || document.getElementById("city").value == "") {
+      alert("Please fill in all of the fields");
+      return false;
+    }
+
+else return true;
+}
+</script>
+</head>
+<body>
+<form method="post" action="Homework7.php" name="form1">
+What is your name <input type="text" id="name" name="name" /><br />
+How many siblings do you have? <input type="text" id="siblings" name="siblings" /><br />
+What is your favorite month?<input type="text" id="month" name="month" /><br />
+What is your dream car? <input type="text" id="car" name="car" /><br />
+What is your favorite city?  <input type="text" id="city" name="city" /><br />
+<input type="submit" value="Submit Information" name="submit" onclick="return check();"/>
+</form>
+</body>
+</HTML>
