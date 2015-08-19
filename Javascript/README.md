@@ -1,6 +1,6 @@
 Check my website 
 
-#markcorre.net 
+#http://markcorre.net/work/Javascript/default.htm
 
 
 For more javascript examples.
